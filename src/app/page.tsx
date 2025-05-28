@@ -1,6 +1,8 @@
 import WalletComponent from "./walletComponent";
 import TransactionComponent from "./transactionComponent";
 import TokenComponent from "./tokenComponent";
+import OtherContractComponent from "./otherContractComponent";
+
 
 export default function Home() {
   return (
@@ -8,6 +10,7 @@ export default function Home() {
       <WalletComponent />
       <TransactionComponent />
       <TokenComponent />
+      <OtherContractComponent />
     </main>
   );
 }
